@@ -21,7 +21,7 @@ public class Basket {
 
     public List<Integer> getItems() {
         return Collections.unmodifiableList(repository);//возращаем коллекцию которая не изменяется и
-// это наш созданный репозиторий
+//  это наш созданный репозиторий
     }
 
 }

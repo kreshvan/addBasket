@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BasketBbbApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BasketBbbApplication.class, args);//
+        SpringApplication.run(BasketBbbApplication.class, args); //
     }
 
 }

@@ -16,14 +16,11 @@ public class BasketService {
         this.basket = basket;
     }
 
-    public void addItems(List<Integer> items) {//добавили пачку в скобках
+    public void addItems(List<Integer> items) {
         basket.addItems(items);
-
     }
 
-    public List<Integer> getItems() {//забрали пачку из скобок
-
-
+    public List<Integer> getItems() {
         return basket.getItems();
     }
 

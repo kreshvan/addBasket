@@ -18,16 +18,16 @@ public class ControllerBasketController {
     }
 
     @GetMapping("/add")
-    public void addItems(@RequestParam("/items") ArrayList<Integer> items) {//добавили пачку в скобках
+    public void addItems(ArrayList<Integer> items) {
         System.out.println(items);
         basketService.addItems(items);
 
     }
 
     @GetMapping("/get")
-    public List<Integer> getItems() {//забрали пачку из скобок
-
+    public List<Integer> getItems() {
         return basketService.getItems();
     }
+
 
 }
